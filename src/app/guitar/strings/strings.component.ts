@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-strings',
-  templateUrl: './strings.component.html',
-  styleUrls: ['./strings.component.css']
+  selector: "app-strings",
+  templateUrl: "./strings.component.html",
+  styleUrls: ["./strings.component.css"]
 })
 export class StringsComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

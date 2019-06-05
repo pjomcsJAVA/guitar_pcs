@@ -1,20 +1,25 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MyNavComponent } from './my-nav/my-nav.component';
-import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
-import { MyDashboardComponent } from './my-dashboard/my-dashboard.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MyNavComponent } from "./my-nav/my-nav.component";
+import { LayoutModule } from "@angular/cdk/layout";
+import {
+  MatToolbarModule,
+  MatButtonModule,
+  MatSidenavModule,
+  MatIconModule,
+  MatListModule,
+  MatGridListModule,
+  MatCardModule,
+  MatMenuModule
+} from "@angular/material";
+import { MyDashboardComponent } from "./my-dashboard/my-dashboard.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MyNavComponent,
-    MyDashboardComponent
-  ],
+  declarations: [AppComponent, MyNavComponent, MyDashboardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -32,4 +37,4 @@ import { MyDashboardComponent } from './my-dashboard/my-dashboard.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pjosilva-app-angular": {
+      "hosting": {
+        "pjosilva-training-app": [
+          "pjosilva-app-angular"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pjosilva-app-angular"
+  }
+}
